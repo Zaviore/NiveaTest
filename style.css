@@ -4,6 +4,7 @@
 }
 body {
   background-image: url("asset/images/nivea_hijab_newsletter.jpg");
+  font-size: 10px;
 }
 
 .container {
@@ -14,8 +15,16 @@ body {
   font-family: Nivea;
   color: rgb(36, 36, 143);
 }
+.container button {
+  margin-top: 20px;
+}
 .center {
   text-align: center;
+}
+
+.container-3 img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
 }
 
 .container-3 {
@@ -37,7 +46,7 @@ body {
   color: white;
   border-radius: 20px;
   border: none;
-  font-size: 17px;
+  font-size: 10px;
   font-family: Nivea;
 }
 
@@ -104,6 +113,18 @@ hr {
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
+  body {
+    font-size: 17px;
+  }
+  .button {
+    font-size: 17px;
+  }
+
+  .container-3 img {
+    width: 70px;
+    height: 70px;
+  }
+
   .col-1 {
     width: 8.33%;
   }
